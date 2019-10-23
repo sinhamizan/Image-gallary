@@ -22,13 +22,39 @@
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 3px;
 }
+
 @keyframes fadein {
 	to{
-		opacity: 1
+		transition: all 5s;
 	}
 }
 .fade {
-	opacity: 0;
-	animation: fadein 2s forwards;
-	transition: all 0.5s;	
+	animation: fadein 1s;
+	transform: all 5s;
+}
+
+/* for 720px screen */
+
+@media (max-width: 720px) {
+	.img_gallary {
+		grid-template-columns: repeat(2,auto);
+	}
+.image_area {
+	width: 460px;
+}
+
+
+}
+
+
+/* for  600px below*/
+@media (max-width: 600px) {
+	.img_gallary {
+		grid-template-columns: repeat(2,auto);
+	}
+.image_area {
+	width: 420px;
+}
+
+
 }
