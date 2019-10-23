@@ -2,7 +2,9 @@
 	padding: 0;
 	margin: 0;
 }
-
+body {
+	background: #000;
+}
 .image_area {
 	margin: 0 auto;
 	width: 720px;
