@@ -2,6 +2,14 @@
 	padding: 0;
 	margin: 0;
 }
-h2{
-	color: red;
+
+.image_area {
+	padding: 120px 0;
+}
+.single_img img {
+	width: 100%;
+	height: 520px;
+}
+.img_gallary img {
+	width: 100%;
 }
