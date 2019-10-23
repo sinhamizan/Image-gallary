@@ -14,7 +14,7 @@ imgs.forEach(img => img.addEventListener('click', function(e){
 
 	setTimeout(function(){
 		active.classList.remove('fade')
-	},2000)
+	},1000)
 
 
 }));
