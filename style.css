@@ -4,7 +4,9 @@
 }
 
 .image_area {
-	padding: 120px 0;
+	margin: 0 auto;
+	width: 720px;
+	padding: 5px 0;
 }
 .active img {
 	width: 100%;
@@ -12,4 +14,21 @@
 }
 .img_gallary img {
 	width: 100%;
+	cursor: pointer;
+	height: 150px
+}
+.img_gallary {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 3px;
+}
+@keyframes fadein {
+	to{
+		opacity: 1
+	}
+}
+.fade {
+	opacity: 0;
+	animation: fadein 2s forwards;
+	transition: all 0.5s;	
 }
